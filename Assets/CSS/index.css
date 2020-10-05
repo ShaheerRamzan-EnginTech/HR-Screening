@@ -1,0 +1,21 @@
+.hide {
+    opacity: 0;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.text-justify {
+    text-align: justify;
+}
+.main-content {
+    background-color: #97b6ca;
+}
+.main-header {
+    background-color: #0c5460;
+    width: 7em;
+    color: honeydew;
+}
+

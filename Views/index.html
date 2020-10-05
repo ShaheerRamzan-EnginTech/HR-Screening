@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CR Screening</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../Assets/CSS/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <title>HR Screening</title>
 </head>
-<body>
-
+<body onload="onStart()">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">HR Screening</span>
+        </div>
+    </nav>
+    <hr class="my-5 hide" />
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class=" col-10 center main-content">
+                <div class="display-3 mx-auto main-header">HR Screening</div>
+                <hr class="my-3 hide"/>
+                <ul class="list left display-6 text-justify">
+                    <li class="list-item">HR Screening is the test for new candidates, who came to give interview.</li>
+                    <li class="list-item">Press start button to begin the test.</li>
+                </ul>
+                <button class="btn btn-primary btn-lg" type="button">Start</button>
+                <hr class="my-2 hide"/>
+            </div>
+        </div>
+    </div>
 </body>
+<script type="application/javascript" src="../Controllers/main.js"></script>
 </html>
